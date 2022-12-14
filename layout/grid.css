@@ -1,0 +1,42 @@
+#container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.text {
+  height: 100px;
+  background-color: #454545;
+  border-radius: 10px;
+  padding-left: 20px;
+}
+
+p {
+  color: white;
+  font-size: 30px;
+}
+
+#A {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+#B {
+  grid-column-start: 3;
+  grid-column-end: 5;
+}
+
+#C {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+#D {
+  grid-column-start: 2;
+  grid-column-end: 5;
+}
+
+#E {
+  grid-column-start: 1;
+  grid-column-end: 5;
+}
